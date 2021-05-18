@@ -19,7 +19,7 @@ main {
     border-bottom-left-radius: 8px;
     border-top-left-radius: 8px;
     width: 200px;
-    height: 400px;
+    height: 200px;
     padding: 10px;
     margin: 100px 0 0 100px;
     float: left;
@@ -29,12 +29,14 @@ nav {
     display: inline-block;
 }
 
+/*aparencia dos botoes*/
+
 .button {
     background-color: #23C48E;
     border: none;
     border-bottom-left-radius: 8px;
     border-top-left-radius: 8px;
-    color: white;
+    color: #fff;
     width: 180px;
     height: 40px;
     padding: 7px 10px;
@@ -51,3 +53,4 @@ nav {
 .button:hover {
     opacity: 1
 }
+/*------------------------------------------------------------*/
