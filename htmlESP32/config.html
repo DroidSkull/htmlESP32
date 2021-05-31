@@ -4,16 +4,16 @@
 <head>
     <meta charset="utf-8">
     <title> Configuração </title>
-    <link href="web_Serverstyles/principal_Style.css" rel="stylesheet">
-    <link href="web_Serverstyles/config_Style.css" rel="stylesheet">
+    <link href="web_Serverstyles/style_Principal.css" rel="stylesheet">
+    <link href="web_Serverstyles/style_Config.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    
+
     <header>
-    
+
         <h1> Configurações </h1>
 
     </header>
@@ -38,23 +38,27 @@
 
     <main>
 
-        <form action="/pagina-processa-dados-do-form" method="post">
+        <form action="config.html" method="post">
 
-            <div>
-                <label for="nome">IP:</label>
-                <input type="text" id="nome" />
+            <div id="textbox">
+                <label for="Nome">IP:</label>
+                <input type="text" id="config_Home" />
             </div>
 
-            <div>
-                <label for="nome">SSID:</label>
-                <input type="text" id="nome" />
+            <div id="textbox">
+                <label for="SSID">SSID:</label>
+                <input type="text" id="config_SSID" />
             </div>
 
-            <div>
-                <label for="nome">Password:</label>
-                <input type="Password" id="nome" />
+            <div id="textbox">
+                <label for="PWD">Password:</label>
+                <input type="Password" id="config_PWD" />
             </div>
-            
+
+            <div id="gravar">
+                <input type="submit" value="Gravar" class="gravar">
+            </div>
+
         </form>
 
     </main>

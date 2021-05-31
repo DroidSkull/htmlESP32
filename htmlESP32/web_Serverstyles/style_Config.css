@@ -1,13 +1,16 @@
-form {
-    margin: 15px auto 30px 80px;
+form #textbox {
+    /* configura a textbox do form*/
+    margin: 12px auto 30px 90px;
     width: 400px;
 }
 
 form div+div {
+    /*Espaço entre um textbox e outro */
     margin-top: 20px;
 }
 
 label {
+    /* Configura as labels - texto antes da textbox*/
     font: 15px 'Roboto', sans-serif;
     color: white;
     display: inline-block;
@@ -17,6 +20,7 @@ label {
 
 input,
 textarea {
+    /* Configura o texto dentro da textbox*/
     font: 15px 'Roboto', sans-serif;
     color: #fff;
     background-color: #212227;
@@ -27,4 +31,17 @@ textarea {
     box-sizing: border-box;
     border: 1.2px solid #fff;
     border-radius: 8px;
+}
+
+#gravar {
+    text-align: center
+}
+
+.gravar {
+    /*configura o botão gravar*/
+    margin: 10px auto 0 auto;
+    width: 50%;
+    padding: 12px 20px;
+    width: 200px;
+    height: 50px;
 }

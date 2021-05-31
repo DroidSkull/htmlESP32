@@ -1,0 +1,77 @@
+body {
+    background-color: #191A1F;
+}
+
+main {
+    display: inline-block;
+    position: absolute;
+    background-color: #212227;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    width: 650px;
+    height: 400px;
+    padding: 10px;
+    margin: 20px 0 0 20px;
+}
+
+header {
+    background-color: #212227;
+    width: 670px;
+    height: 90px;
+    margin: 40px 0 0 340px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+#_menu {
+    background-color: #212227;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    margin: 20px 0 0 100px;
+    float: left;
+}
+
+nav {
+    display: inline-block;
+}
+
+
+/*aparencia dos botoes*/
+
+.button {
+    background-color: #23C48E;
+    border: none;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    color: #fff;
+    width: 180px;
+    height: 40px;
+    padding: 7px 10px;
+    text-align: center;
+    font-size: 16px;
+    margin: 10px 10px;
+    opacity: 0.8;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    opacity: 1
+}
+
+
+/*------------------------------------------------------------*/
