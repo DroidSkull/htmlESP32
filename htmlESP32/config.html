@@ -8,6 +8,8 @@
     <link href="web_Serverstyles/style_Config.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <script src="web_Serverscript/script_Home.js"></script>
+
 </head>
 
 <body>
@@ -38,7 +40,7 @@
 
     <main>
 
-        <form action="config.html" method="post">
+        <form method="post">
 
             <div id="textbox">
                 <label for="Nome">IP:</label>
@@ -56,7 +58,8 @@
             </div>
 
             <div id="gravar">
-                <input type="submit" value="Gravar" class="gravar">
+                <input type="submit" onclick="config()" value="Gravar" class="gravar">
+                <p id="demo"> </p>
             </div>
 
         </form>
