@@ -1,0 +1,29 @@
+#logout {
+
+    margin:300px auto 0 330px;
+    
+
+}
+
+.logout {
+    /*configura o botão gravar*/
+    background-color: #23C48E;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    width: 180px;
+    height: 40px;
+    padding: 7px 10px;
+    text-align: center;
+    font-size: 16px;
+    margin: 10px 10px;
+    opacity: 0.8;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.logout:hover {
+    opacity: 1
+}

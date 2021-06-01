@@ -1,0 +1,91 @@
+body {
+    background-color: #191A1F;
+}
+
+main {
+    display: block;
+    position: static;
+    background-color: #212227;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    width: 500px;
+    height: 500px;
+    padding-top: 100px;
+    margin: 20px auto 0 auto;
+}
+
+header {
+    background-color: #212227;
+    width: 500px;
+    height: 90px;
+    margin: 40px auto 0 auto;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+form #textbox {
+    /* configura a textbox do form*/
+    margin: 25px auto 30px 100px;
+    width: 400px;
+}
+
+form div+div {
+    /*Espaço entre as textbox e o botão */
+    margin-top: 20px;
+}
+
+input,
+textarea {
+    /* Configura o texto dentro da textbox*/
+    font: 15px 'Roboto', sans-serif;
+    color: #fff;
+    background-color: #212227;
+    padding: 3px 0 3px 10px;
+    outline: none;
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1.2px solid #fff;
+    border-radius: 8px;
+}
+
+#login {
+    text-align: center
+}
+
+.login {
+    /*configura o botão gravar*/
+    background-color: #23C48E;
+    border: none;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    color: #fff;
+    width: 180px;
+    height: 40px;
+    padding: 7px 10px;
+    text-align: center;
+    font-size: 16px;
+    margin: 10px 10px;
+    opacity: 0.8;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.login:hover {
+    opacity: 1
+}
+
+p {
+    color: red;
+}

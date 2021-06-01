@@ -14,22 +14,26 @@
 
 <body>
 
+    <header>
+
+        <h1> login </h1>
+
+    </header>
+
     <main>
 
         <form method="post">
 
-            <div id="textbox">
-                <label for="User">User: </label>
-                <input type="text" id="config_User" />
+            <div id="textbox">  
+                <input type="text" id="config_User" name="User" placeholder="User"/>
             </div>
 
             <div id="textbox">
-                <label for="PWD">Password:</label>
-                <input type="Password" id="config_PWD" />
+                <input type="Password" id="config_PWD" name="PWD" placeholder="Password"/>
             </div>
 
             <div id="login">
-                <input type="submit" onclick="login()" value="login" class="login">
+                <input type="button" onclick="login()" value="login" class="login">
                 <p id="error"> </p>
             </div>
 

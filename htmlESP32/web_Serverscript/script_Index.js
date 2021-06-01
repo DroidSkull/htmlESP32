@@ -7,14 +7,16 @@ function login() {
     User = document.getElementById("config_User").value;
     PWD = document.getElementById("config_PWD").value;
 
-    if (isNaN(PWD)) {
-        text = "Senha invalida";
-    } else if (PWD != "Adimin") {
+    if (PWD != "Admin") {
         text = "Senha invalida";
     }
 
-    if (User != "Adimin") {
+    if (User != "Admin") {
         text = "Usuario invalido";
+    }
+    else {
+        window.location.replace("home.html");
+        text = " ";
     }
     document.getElementById("error").innerHTML = text;
 }
