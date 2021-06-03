@@ -24,15 +24,15 @@
 
         <form method="post">
 
-            <div id="textbox">  
+            <div tabindex="0" id="textbox">  
                 <input type="text" id="config_User" name="User" placeholder="User"/>
             </div>
 
-            <div id="textbox">
+            <div tabindex="1" id="textbox">
                 <input type="Password" id="config_PWD" name="PWD" placeholder="Password"/>
             </div>
 
-            <div id="login">
+            <div tabindex="2" id="login">
                 <input type="button" onclick="login()" value="login" class="login">
                 <p id="error"> </p>
             </div>
