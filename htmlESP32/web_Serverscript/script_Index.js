@@ -2,6 +2,14 @@ var User = 0;
 var PWD = 0;
 var text;
 
+document.addEventListener("keypress", function(e) {
+    if(e.key === 'Enter') {
+    
+        document.querySelector("#login_bt").click();
+    
+    }
+  });
+
 function login() {
 
     User = document.getElementById("config_User").value;
@@ -20,3 +28,5 @@ function login() {
     }
     document.getElementById("error").innerHTML = text;
 }
+
+
