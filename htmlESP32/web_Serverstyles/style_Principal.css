@@ -2,9 +2,11 @@ body {
     background-color: #191A1F;
 }
 
-main {
-    display: inline-block;
-    position: absolute;
+main{
+    display: flex;
+}
+
+.main {
     background-color: #212227;
     border-bottom-right-radius: 8px;
     border-top-right-radius: 8px;
@@ -32,7 +34,10 @@ h1 {
     padding: 20px;
 }
 
-#_menu {
+._menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     background-color: #212227;
     border-bottom-left-radius: 8px;
     border-top-left-radius: 8px;
@@ -42,11 +47,6 @@ h1 {
     margin: 20px 0 0 100px;
     float: left;
 }
-
-nav {
-    display: inline-block;
-}
-
 
 /*aparencia dos botoes*/
 
