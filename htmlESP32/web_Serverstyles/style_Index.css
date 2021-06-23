@@ -4,22 +4,21 @@ body {
 }
 
 main {
-    display: block;
-    position: static;
+    display: flex;
     background-color: #212227;
     border-bottom-right-radius: 8px;
     border-bottom-left-radius: 8px;
-    width: 500px;
-    height: 500px;
-    padding-top: 100px;
-    margin: 20px auto 0 auto;
+    width: 30%;
+    height: 300px;
+    margin: 20px auto;
 }
+
 
 header {
     background-color: #212227;
-    width: 500px;
-    height: 90px;
-    margin: 20px auto 0 auto;
+    width: 30%;
+    height: 80px;
+    margin: 20px auto;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
 }
@@ -30,18 +29,15 @@ h1 {
     font-size: 40px;
     color: #fff;
     text-align: center;
-    padding: 20px;
+    padding-top: 15px;
 }
-
+form{
+    
+}
 form #textbox {
     /* configura a textbox do form*/
-    margin: 25px auto 30px 100px;
-    width: 400px;
-}
+    margin: 40px;
 
-form div+div {
-    /*Espaço entre as textbox e o botão */
-    margin-top: 20px;
 }
 
 input,
@@ -52,7 +48,7 @@ textarea {
     background-color: #212227;
     padding: 3px 0 3px 10px;
     outline: none;
-    width: 300px;
+    width: 100%;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     border: 1.2px solid #fff;
@@ -60,7 +56,8 @@ textarea {
 }
 
 #login {
-    text-align: center
+    text-align: center;
+    margin-top: 60px;
 }
 
 .login {
@@ -72,13 +69,10 @@ textarea {
     color: #fff;
     width: 180px;
     height: 40px;
-    padding: 7px 10px;
     text-align: center;
     font-size: 16px;
-    margin: 10px 10px;
     opacity: 0.8;
     transition: 0.3s;
-    display: inline-block;
     text-decoration: none;
     cursor: pointer;
 }
