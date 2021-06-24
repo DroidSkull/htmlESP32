@@ -7,6 +7,7 @@ main{
 }
 
 .main {
+    flex-wrap: wrap;
     background-color: #212227;
     border-bottom-right-radius: 8px;
     border-top-right-radius: 8px;
@@ -35,7 +36,6 @@ h1 {
 }
 
 ._menu {
-    display: flex;
     flex-direction: column;
     justify-content: flex-start;
     background-color: #212227;
